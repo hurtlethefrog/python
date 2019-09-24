@@ -15,8 +15,6 @@ for guessesTaken in range(6):
         print("too high")
     if guess < number:
         print("too low")
-    # if guess == number:
-    #     break
     if guess == number:
         guessesTaken = str(guessesTaken + 1)
         print("you got it, and it only took you " + guessesTaken + " attempts.")
