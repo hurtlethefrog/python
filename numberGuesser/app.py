@@ -1,6 +1,6 @@
 import random
 
-number = 1
+number = random.randint(1,20)
 
 guessesTaken = 0
 
