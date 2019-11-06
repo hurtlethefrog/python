@@ -1,13 +1,12 @@
 def car():
     switcher = {
         'help':'''
-        start - to start the car
-        stop - to stop the car
-        exit - exit program
+start - to start the car
+stop - to stop the car
+exit - exit program
         ''',
         'start': "Car started, let's go G2\n",
-        'stop': "You stopped the car\n",
-        'exit': False
+        'stop': "You stopped the car\n"
     }
     action = input("you're sitting in a car, what do you do?\n")
     while action != 'exit':
